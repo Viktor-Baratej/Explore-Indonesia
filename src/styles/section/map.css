@@ -1,0 +1,55 @@
+.Map {
+  background: var(--white);
+  background-image: url('/Fon/Mapleft-min.png'), url('/Fon/MapRight-min.png');
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
+  background-size: 200px, 900px; 
+  position: relative;
+ 
+}
+
+
+
+.map-content {
+  padding-top: 171px;
+  padding-bottom: 116px;
+}
+
+
+
+.map-title {
+
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+text-align: center;
+color: #000;
+padding-bottom: 36px;
+}
+
+.map-text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--paragraph-dark);
+padding-bottom: 41px;
+}
+
+
+.map-btn {
+  background: var(--main-red);
+  border-radius: 122px;
+padding: 16px 24px;
+width: 100%;
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: var(--white);
+border: none;
+}

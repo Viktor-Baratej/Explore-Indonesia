@@ -1,0 +1,79 @@
+.Footer {
+    background: var(--blue-background);
+    position: relative;
+}
+
+.footer-logo-content {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding-top: 90px;
+    margin-bottom: 36px;
+}
+
+.footer-logo-flowers {
+    fill: var(--white);
+}
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    font-family: var(--second-family);
+font-weight: 900;
+font-size: 23px;
+line-height: 90%;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+color: var(--main-red);
+}
+
+
+.footer-logo-wight {
+    color: var(--white);
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+
+.footer-item {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 22px;
+line-height: 156%;
+letter-spacing: 0.03em;
+color: var(--white);
+}
+
+.footer-soc-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+}
+
+.footer-soc-item {
+    fill: var(--white);
+}
+
+
+.footer-tab {
+    text-align: center;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 23px;
+line-height: 156%;
+letter-spacing: 0.03em;
+color: var(--white);
+padding-bottom: 83px;
+}
+

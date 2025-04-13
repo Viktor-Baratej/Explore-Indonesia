@@ -1,0 +1,126 @@
+.GettingThere {
+    background: #dce8f2;
+}
+
+
+
+.getting-title {
+    padding-top: 29px;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+text-align: center;
+color: var(--blue---background);
+margin-bottom: 45px;
+}
+
+
+
+.step {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.step-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 26px;
+line-height: 144%;
+text-align: center;
+color: var(--white);
+background-color: var(--main-red);
+width: 56px;
+height: 56px;
+border-radius: 100%;
+}
+
+.step-title {
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--blue---background);
+    margin-bottom: 13px;
+}
+
+
+.step-sub {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.step-sub-title {
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 26px;
+line-height: 156%;
+color: var(--blue---background);
+display: none;
+}
+
+.step-text {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--light-text);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1; 
+    -webkit-box-orient: vertical;
+    transition: max-height 4s ease, -webkit-line-clamp 4s ease;
+    
+   
+  }
+  
+  .step-text.expanded {
+    -webkit-line-clamp: unset;
+    max-height: 500px; 
+  }
+  
+  .toggle-button {
+    
+    background: none;
+    border: none;
+    color: var(--main-red); /* або #dd2242 */
+    cursor: pointer;
+    font-weight: 500;
+    padding: 0;
+    margin-bottom: 32px;
+  }
+
+  .toggle-wraper {
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+.step-button {
+    border-radius: 122px;
+padding: 16px 24px;
+width: 210px;
+height: 64px;
+background: var(--main-red);
+font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+line-height: 150%;
+text-align: center;
+color: var(--white);
+border: none;
+display: none;
+}

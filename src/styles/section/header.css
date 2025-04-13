@@ -1,0 +1,91 @@
+.header-background-image {
+  background-image: url(/Fon/FonHeroHeader.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 50%;
+  padding-bottom: 40px;
+}
+
+.Header {
+  padding-top: 48px;
+}
+  .header-burger-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
+    position: relative;
+  }
+
+  .header-logo-title {
+    margin-right: 80px;
+    font-family: var(--second-family);
+font-weight: 900;
+font-size: 20px;
+line-height: 81%;
+letter-spacing: 0.01em;
+text-transform: uppercase;
+background: linear-gradient(180deg, #fff 30%, rgba(255, 255, 255, 0) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+
+  .header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 45px;
+  }
+
+  .header-logo svg {
+    fill: var(--white);
+
+  }
+  .header-nav {
+    display: none;
+  }
+
+  .header-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    
+  }
+
+  .header-right {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+  }
+ 
+  .header-list {
+    display: flex;
+    gap: 61px;
+    align-items: center;
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 18px;
+text-transform: uppercase;
+color: var(--white);
+
+  }
+  .header-item {
+
+  }
+
+  @media screen and (min-width: 1440px) {
+    .Header {
+      padding-top: 35px;
+      margin-bottom: 125px;
+    }
+    .header-nav {
+      display: block;
+    }
+    
+  }
+
+  

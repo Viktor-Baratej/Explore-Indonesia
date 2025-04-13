@@ -1,0 +1,59 @@
+.Video {
+    background-image: url(/Fon/FonVideo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+
+  .video-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+.video-title {
+  padding-top: 83px;
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 40px;
+line-height: 115%;
+text-align: center;
+color: var(--white);
+margin-bottom: 112px;
+}
+
+.video-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.video-item-title {
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 22px;
+line-height: 150%;
+text-align: center;
+color: var(--white);
+}
+
+.video-item-text {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.03em;
+text-align: center;
+color: var(--white);
+opacity: 0.7;
+
+}
+
+.video-preview {
+  margin-bottom: 40px;
+
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+}
