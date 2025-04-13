@@ -28,7 +28,7 @@ export default function Hero() {
       <div className="container hero-content">
 
         <h1 className='hero-title'>
-          explore <br /> indonesia
+          Explore <br /> indonesia
         </h1>
 
         
