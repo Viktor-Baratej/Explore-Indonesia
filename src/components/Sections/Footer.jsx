@@ -7,7 +7,7 @@ export default function Footer() {
 <div className="container">
 <div className="footer-logo-content">
 <svg className='footer-logo-flowers' width="25" height="51">
-            <use href="/sprite/symbol-defs.svg#icon-Flowers" />
+            <use href="/symbol-defs.svg#icon-Flowers" />
           </svg>
           <div className='footer-logo'>Explore<span className='footer-logo-wight'>Indonesia</span>
           </div>

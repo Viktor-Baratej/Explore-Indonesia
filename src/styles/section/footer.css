@@ -40,6 +40,8 @@ color: var(--main-red);
 .footer-list {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 35px;
     margin-bottom: 35px;
 }
