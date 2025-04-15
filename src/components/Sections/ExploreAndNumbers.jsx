@@ -21,9 +21,10 @@ export default function ExploreAndNumbers() {
   pagination={{ clickable: true }}  // крапки для пагінації
   loop={true}       // безкінечний слайдер
   autoplay={{
-    delay: 2000,       // 3 секунди між слайдами
+    delay: 1500,       // 3 секунди між слайдами
     disableOnInteraction: false, // не зупиняється після взаємодії
   }}
+  speed={1500}
   breakpoints={{
     640: {
       slidesPerView: 1, 
