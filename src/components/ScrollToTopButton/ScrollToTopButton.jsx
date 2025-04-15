@@ -2,7 +2,7 @@
 
 
 import { useEffect, useState } from "react";
-import '../../styles/scroll-to-top/scroll-to-top.css';
+import '../../styles/ScrollToTop/ScrollToTop.css';
 
 // Компонент кнопки для повернення вгору
 export default function ScrollToTopButton() {
