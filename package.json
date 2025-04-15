@@ -1,18 +1,25 @@
 {
   "name": "explore-indonesia",
-  "private": true,
   "version": "0.0.0",
+  "private": true,
+  "description": "Landing page for Explore Indonesia",
+  "homepage": "https://explore-indonesia.vercel.app", 
+  "bugs": {
+    "url": "https://github.com/Viktor-Baratej/Explore-Indonesia/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viktor-Baratej/Explore-Indonesia.git"
+  },
+  "license": "ISC",
+  "author": "Viktor Baratej <Viktor_baratejj@ukr.net>",
   "type": "module",
+  "main": "index.js",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "lint": "eslint .",
-   "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
- 
-"homepage": "https://github.com/Viktor-Baratej/Explore-Indonesia"
-
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -27,7 +34,6 @@
     "eslint": "^9.21.0",
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
-    "gh-pages": "^6.3.0",
     "globals": "^15.15.0",
     "vite": "^6.2.0"
   }
