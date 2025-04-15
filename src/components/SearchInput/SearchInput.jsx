@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef} from "react";
-import '../../styles/SearchInput/SearchInput.css';
+import '../../styles/SearchInput/searchinput.css';
 export default function SearchInput() {
   const [isSearchOpen, setIsSearchOpen] = useState(false);
   const inputRef = useRef(null);
