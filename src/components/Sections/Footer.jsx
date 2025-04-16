@@ -4,7 +4,7 @@ export default function Footer() {
     return (
       <section id='Footer' className="Footer">
 <ScrollToTopButton/>
-<div className="container">
+<div className="container footer-container">
 <div className="footer-logo-content">
 <svg className='footer-logo-flowers' width="25" height="51">
             <use href="/sprite/symbol-defs.svg#icon-Flowers" />
@@ -22,24 +22,19 @@ export default function Footer() {
 </nav>
 <div className="footer-soc">
     <ul className="footer-soc-list">
-        <li> <a href="https://www.facebook.com" target="_blank"><svg className="footer-soc-item" width="30" height="30">
+        <li> <a href="https://www.facebook.com" target="_blank"><svg className="footer-soc-item" >
                 <use href="/sprite/symbol-defs.svg#icon-facebook" />
               </svg></a> </li>
-        <li> <a href="https://www.linkedin.com" target="_blank"><svg className="footer-soc-item" width="30" height="30">
+        <li> <a href="https://www.linkedin.com" target="_blank"><svg className="footer-soc-item" >
                 <use href="/sprite/symbol-defs.svg#icon-linkedin" />
               </svg></a> </li>
-        <li> <a href="https://www.google.com" target="_blank"><svg className="footer-soc-item" width="30" height="30">
+        <li> <a href="https://www.google.com" target="_blank"><svg className="footer-soc-item" >
                 <use href="/sprite/symbol-defs.svg#icon-google" />
               </svg></a> </li>
     </ul>
 </div>
 
 <p className='footer-tab'><small>Copyright © 2025</small></p>
-
-
-
-
-
 </div>
     </section>
     );

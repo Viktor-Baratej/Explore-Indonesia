@@ -42,8 +42,7 @@ export default function Video() {
           Live a life like you wouldn’t imagine, experience a life you wouldn’t expect.
         </h2>
 
-        {/* Основне відео окремо */}
-        <div className="hero-video">
+        <div className="hero-video video-video">
           {visibleVideos[0] ? (
             <iframe
               
@@ -54,7 +53,7 @@ export default function Video() {
               allowFullScreen
             ></iframe>
           ) : (
-            <div className="video-preview" onClick={() => handlePlay(0)}>
+            <div className="video-preview video-video" onClick={() => handlePlay(0)}>
               <img src={videoData[0].img} alt="Main video preview" className="video-thumbnail" />
               <button className="hero-video-btn" type="button">
                 <svg width="20" height="20">
@@ -88,9 +87,13 @@ export default function Video() {
                   </div>
                 )}
               </div>
-              <h3 className="video-item-title">{subtitle}</h3>
-              <p className="video-item-text">{text}</p>
+             <div className='video-item-content'>
+                <h3 className="video-item-title">{subtitle}</h3>
+                <p className="video-item-text">{text}</p>
+             </div>
             </li>
+            
+            
           ))}
         </ul>
       </div>

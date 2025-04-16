@@ -11,14 +11,14 @@
 
 
 .map-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding-top: 171px;
   padding-bottom: 116px;
 }
 
-
-
 .map-title {
-
   font-family: var(--font-family);
 font-weight: 700;
 font-size: 40px;
@@ -39,12 +39,15 @@ color: var(--paragraph-dark);
 padding-bottom: 41px;
 }
 
-
+.map-btn-content {
+  display: flex;
+  justify-content: center;
+}
 .map-btn {
   background: var(--main-red);
   border-radius: 122px;
 padding: 16px 24px;
-width: 100%;
+width: 314px;
 font-family: var(--font-family);
 font-weight: 700;
 font-size: 18px;
@@ -52,4 +55,35 @@ line-height: 150%;
 text-align: center;
 color: var(--white);
 border: none;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+  .Map {
+    background-size: 500px, 1950px; 
+  }
+  .map-content {
+    gap: 30px;
+margin: 0 auto;
+    width: 520px;
+    padding-top: 248px;
+    padding-bottom: 238px;
+  }
+  
+  .map-title {
+font-size: 42px;
+line-height: 119%;
+  }
+  
+  .map-text {
+font-size: 18px;
+line-height: 156%;
+  }
+ 
+  .map-btn {
+width: 210px;
+  }
+  
 }

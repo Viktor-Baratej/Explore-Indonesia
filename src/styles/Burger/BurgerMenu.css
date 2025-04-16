@@ -6,7 +6,7 @@
 .burger-menu {
     position: fixed;
     top: 0;
-    right: -100%;        /* сховане спочатку */
+    right: -100%; 
     width: 60%;
     height: 100vh;
     transition: right 1.3s ease-in-out;
@@ -16,7 +16,7 @@
   }
   
   .burger-menu.open {
-    right: 0;    /* показується при open */
+    right: 0;  
   }
 
 
@@ -66,9 +66,11 @@
       margin-bottom: 25px;
     }
     
+    
     .burger-menu a {
       font-size: 30px;
     }
+    
   
     
   }
