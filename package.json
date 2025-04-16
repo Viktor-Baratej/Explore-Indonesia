@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "description": "Landing page for Explore Indonesia",
-  "homepage": "https://explore-indonesia.vercel.app", 
+  "homepage": "https://explore-indonesia.vercel.app",
   "bugs": {
     "url": "https://github.com/Viktor-Baratej/Explore-Indonesia/issues"
   },
@@ -24,6 +24,7 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-scroll": "^1.9.3",
     "swiper": "^11.2.6"
   },
   "devDependencies": {
