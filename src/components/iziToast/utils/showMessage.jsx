@@ -7,6 +7,6 @@ export function showMessage(title, message) {
     message,
     position: 'topCenter',
     timeout: 3000,
-    color: 'green',
+    class: 'my-toast'
   });
 }

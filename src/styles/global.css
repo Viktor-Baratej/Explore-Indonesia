@@ -11,9 +11,7 @@
   
 }
 
-.iziToast-wrapper.iziToast-wrapper-topCenter {
-  top: 50px !important; 
-}
+
 
 *,
 *::before,
@@ -41,7 +39,24 @@ body {
 
   }
   
+  .iziToast-wrapper.iziToast-wrapper-topCenter {
+    top: 50px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important; 
   
+  
+  }
+  .iziToast.my-toast {
+    border-radius: 20px;
+    background: #d8b265;
+    color: #333;
+    font-size: 18px;
+    max-width: 350px;
+    width: 100%;
+  text-align: center;
+    
+  
+  }
 
   @media screen and (min-width: 768px) {
     .container {
@@ -49,4 +64,5 @@ body {
      
     }
   }
+
   
