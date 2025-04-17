@@ -20,7 +20,7 @@ const FadeInSection = ({ children }) => {
         ease: 'easeOut',
       }}
       viewport={{
-        once: true,
+        once: false,
         amount: 0.2,
       }}
       style={{
