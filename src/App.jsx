@@ -9,6 +9,7 @@ import PhotoGallery from './components/Sections/PhotoGallery.jsx';
 import GettingThere from './components/Sections/GettingThere.jsx';
 import Footer from './components/Sections/Footer.jsx';
 import ScrollToTopButton from './components/ScrollToTopButton/ScrollToTopButton.jsx';
+import FadeInSection from './components/FadeInSection/FadeInSection.jsx';
 
 function App() {
   return (
@@ -17,12 +18,12 @@ function App() {
       <Header />
       <Hero/>
    </div>
-    <Article/>
-    <ExploreAndNumbers/>
-    <Map/>
-    <Video/>
-    <PhotoGallery/>
-    <GettingThere/>
+    <FadeInSection><Article/></FadeInSection>
+    <FadeInSection><ExploreAndNumbers/></FadeInSection>
+    <FadeInSection><Map/></FadeInSection>
+    <FadeInSection><Video/></FadeInSection>
+    <FadeInSection><PhotoGallery/></FadeInSection>
+    <FadeInSection><GettingThere/></FadeInSection>
     <Footer/>
     <ScrollToTopButton/>
     </>
