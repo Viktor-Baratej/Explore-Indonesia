@@ -11,6 +11,10 @@
   
 }
 
+.iziToast-wrapper.iziToast-wrapper-topCenter {
+  top: 50px !important; 
+}
+
 *,
 *::before,
 *::after {

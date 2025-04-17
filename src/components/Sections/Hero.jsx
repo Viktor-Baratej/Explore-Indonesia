@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import '../../styles/section/hero.css';
+import { showMessage } from '../iziToast/utils/showMessage';
 
 export default function Hero() {
   const [showVideo, setShowVideo] = useState(false);
@@ -31,7 +32,7 @@ export default function Hero() {
           <h1 className='hero-title'>
             Explore <br /> indonesia
           </h1>
-            <button className='hero-btn' type='button'>
+            <button className='hero-btn' type='button'onClick={() => showMessage('Section', 'button is not active')}>
               Start travelling
             </button>
         </div>
@@ -73,7 +74,7 @@ export default function Hero() {
                   alt="Video preview"
                   className="video-thumbnail"
                 />
-                <button className='hero-video-btn' type='button'>
+                <button className='hero-video-btn' type='button' >
                   <svg>
                     <use href="/sprite/symbol-defs.svg#icon-play" />
                   </svg>

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { showMessage } from '../iziToast/utils/showMessage';
 import '../../styles/section/getting-there.css';
 export default function GettingThere() {
   // ремий стан для кожного блоку
@@ -85,7 +86,7 @@ export default function GettingThere() {
               <button className="toggle-button" onClick={() => toggleText('step4')}>
                 {expanded.step4 ? 'Show less' : 'Show more'}
               </button>
-              <button className="step-button">Learn More</button>
+              <button className="step-button" onClick={() => showMessage('Section', 'button is not active')}>Learn More</button>
            </div>
           </div>
         </div>
